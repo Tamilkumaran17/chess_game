@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.app{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  
+}
+.winner{
+  font-size: 24px;
+  font-weight: bold;
+  color: blueviolet;
+  position: relative;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+.startbutton{
+  color: #fff;
+  background-color: rgb(35, 35, 219);
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+  position: absolute;
+  left: 47%;
+}
+.startbutton:hover{
+  background-color: rgb(10, 10, 114);
+}
+.text-field{
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+.user{
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.board-container{
+  position: relative;
+  
+}
+
+.chessboard{
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  display: grid; 
+  grid-template-columns: repeat(8, 1fr)
+}
+
+.chessboard .square:nth-child(even) {
+  background-color: #000000; 
+}
+
+.chessboard .square:nth-child(odd) {
+  background-color: #f0f0f0; 
+}
+
+
+.board-container .chessboard {
+  background-color: #d3d3d3; 
+  border: 2px solid black;
+}
+.heading
+{
+  top: 30%;
+  left: 37%;
+  position: absolute;
+}
