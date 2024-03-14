@@ -99,7 +99,7 @@ const handleStartGame = async (e) => {
         
         {showChessboard && (
           <>
-            <p className="user">Welcome: {username}</p>
+            <p className="user">Welcomeee: {username}</p>
             <div className="board-container">
               <Chessboard
                 position={game.fen()}
