@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/http//Tamilkumaran17.github.io/chess_game/static/css/main.29f032cf.css",
+    "main.js": "/http//Tamilkumaran17.github.io/chess_game/static/js/main.bbed98e4.js",
+    "index.html": "/http//Tamilkumaran17.github.io/chess_game/index.html",
+    "main.29f032cf.css.map": "/http//Tamilkumaran17.github.io/chess_game/static/css/main.29f032cf.css.map",
+    "main.bbed98e4.js.map": "/http//Tamilkumaran17.github.io/chess_game/static/js/main.bbed98e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29f032cf.css",
+    "static/js/main.bbed98e4.js"
+  ]
+}
