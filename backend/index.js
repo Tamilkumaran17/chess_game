@@ -17,9 +17,6 @@ console.log("App listen at port 5000");
 app.use(express.json());
 app.use(cors());
 
-app.get("/", (req,resp)=>{
-    resp.send("App is working");
-})
 
 app.post("/register",async(req,resp)=>{
     try{
@@ -28,11 +25,8 @@ app.post("/register",async(req,resp)=>{
         let result = await user.save();
         result = result.toObject();
         if (result) {
-            delete result.password;
             resp.send({username});
             console.log(result);
-        } else {
-            console.log("User already register");
         }
  
     } catch (e) {

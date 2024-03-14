@@ -59,6 +59,7 @@ useEffect (()=>{
   }
 },[game]);
 
+
 const handleStartGame = async (e) => {
   e.preventDefault();
   let result = await fetch(
