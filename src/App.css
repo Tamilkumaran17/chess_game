@@ -17,7 +17,7 @@
 .winner{
   font-size: 24px;
   font-weight: bold;
-  color: blueviolet;
+  color: rgb(238, 29, 105);
   position: relative;
   top: 10px;
   left: 50%;
@@ -39,11 +39,14 @@
 }
 .startbutton:hover{
   background-color: rgb(10, 10, 114);
+  transition: .3s linear;
+  transform: scale(1.1);
 }
 .text-field{
   border: 2px solid black;
   padding: 20px;
   border-radius: 10px;
+  background-color: rgb(220, 219, 219);
 
 }
 .user{
@@ -84,6 +87,6 @@
 .heading
 {
   top: 30%;
-  left: 37%;
+  left: 36%;
   position: absolute;
 }

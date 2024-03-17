@@ -85,7 +85,7 @@ const handleStartGame = async (e) => {
 
   return (
     <>
-     <center><h1 className='heading'>Welcome to the chess game</h1></center>
+     <center><h1 className='heading'>Welcome to the Chess game!</h1></center>
     <div className="app">
         {!showChessboard && (
           
